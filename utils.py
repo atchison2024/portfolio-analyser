@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # URL to your JSON file in the data-collector repo (adjust as needed)
-DATA_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/data-collector/main/portfolio.json"
+DATA_URL = "https://raw.githubusercontent.com/atchison2024/information-collector/main/server/data.json"
 
 def fetch_portfolio():
     response = requests.get(DATA_URL)
